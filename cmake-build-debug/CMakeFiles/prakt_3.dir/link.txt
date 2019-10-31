@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/prakt_3.dir/main.cpp.o CMakeFiles/prakt_3.dir/Literature.cpp.o CMakeFiles/prakt_3.dir/Book.cpp.o  -o prakt_3 

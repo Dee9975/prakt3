@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matiss/CLionProjects/prakt_3/Book.cpp
+Book.h
+/home/matiss/CLionProjects/prakt_3/Book.h
+ctime
+-
+iostream
+-
+
+/home/matiss/CLionProjects/prakt_3/Book.h
+Literature.h
+/home/matiss/CLionProjects/prakt_3/Literature.h
+string
+-
+
+/home/matiss/CLionProjects/prakt_3/Literature.cpp
+iostream
+-
+Literature.h
+/home/matiss/CLionProjects/prakt_3/Literature.h
+ctime
+-
+
+/home/matiss/CLionProjects/prakt_3/Literature.h
+string
+-
+
+/home/matiss/CLionProjects/prakt_3/main.cpp
+iostream
+-
+bits/stdc++.h
+-
+string
+-
+Literature.h
+/home/matiss/CLionProjects/prakt_3/Literature.h
+Book.h
+/home/matiss/CLionProjects/prakt_3/Book.h
+
