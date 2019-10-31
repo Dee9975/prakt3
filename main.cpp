@@ -36,7 +36,8 @@ int main() {
   if (response == "y") {
     std::string genre, type;
     float pd;
-    std::cout << "Enter the name of the source of literature: ";
+    std::cout << "Enter the page density"
+                 " of the source of literature: ";
     std::cin >> pd;
     std::cout << "\nEnter the genre of the source of literature: ";
     std::cin >> genre;
@@ -44,6 +45,16 @@ int main() {
     std::cin >> type;
 
     Literature *lit1 = new Literature(type,pd,genre);
+
+    std::cout << "Would you like to add a new book [Y/n] ";
+    std::cin >> response;
+    response = ResponseToLower(response);
+    if (response == "y") {
+      float price;
+      std::cout << "Enter the price of the book";
+      std::cin >> price;
+      Book *book1 = new Book(price);
+    }
 
   }
   return 0;
