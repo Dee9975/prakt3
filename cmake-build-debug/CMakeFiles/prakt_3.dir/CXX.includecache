@@ -6,17 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/home/matiss/CLionProjects/prakt_3/Book.h
+C:/Users/nickg/Desktop/prakt_3/Book.cpp
+Book.h
+C:/Users/nickg/Desktop/prakt_3/Book.h
+ctime
+-
+iostream
+-
+
+C:/Users/nickg/Desktop/prakt_3/Book.h
 Literature.h
-/home/matiss/CLionProjects/prakt_3/Literature.h
+C:/Users/nickg/Desktop/prakt_3/Literature.h
 string
 -
 
-/home/matiss/CLionProjects/prakt_3/Literature.h
+C:/Users/nickg/Desktop/prakt_3/Journal.cpp
+Journal.h
+C:/Users/nickg/Desktop/prakt_3/Journal.h
+
+C:/Users/nickg/Desktop/prakt_3/Journal.h
+string
+-
+Literature.h
+C:/Users/nickg/Desktop/prakt_3/Literature.h
+iostream
+-
+ctime
+-
+
+C:/Users/nickg/Desktop/prakt_3/Literature.cpp
+iostream
+-
+Literature.h
+C:/Users/nickg/Desktop/prakt_3/Literature.h
+ctime
+-
+
+C:/Users/nickg/Desktop/prakt_3/Literature.h
 string
 -
 
-/home/matiss/CLionProjects/prakt_3/main.cpp
+C:/Users/nickg/Desktop/prakt_3/main.cpp
 iostream
 -
 bits/stdc++.h
@@ -24,7 +54,9 @@ bits/stdc++.h
 string
 -
 Literature.h
-/home/matiss/CLionProjects/prakt_3/Literature.h
+C:/Users/nickg/Desktop/prakt_3/Literature.h
 Book.h
-/home/matiss/CLionProjects/prakt_3/Book.h
+C:/Users/nickg/Desktop/prakt_3/Book.h
+Journal.h
+C:/Users/nickg/Desktop/prakt_3/Journal.h
 

@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/prakt_3.dir/Book.cpp.o"
-  "CMakeFiles/prakt_3.dir/Literature.cpp.o"
-  "CMakeFiles/prakt_3.dir/main.cpp.o"
-  "prakt_3"
+  "CMakeFiles/prakt_3.dir/Book.cpp.obj"
+  "CMakeFiles/prakt_3.dir/Journal.cpp.obj"
+  "CMakeFiles/prakt_3.dir/Literature.cpp.obj"
+  "CMakeFiles/prakt_3.dir/main.cpp.obj"
+  "CMakeFiles/prakt_3.dir/testies.cpp.obj"
+  "libprakt_3.dll.a"
+  "prakt_3.exe"
+  "prakt_3.exe.manifest"
   "prakt_3.pdb"
 )
 

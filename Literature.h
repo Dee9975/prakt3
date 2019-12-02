@@ -19,7 +19,7 @@ public:
 
     Literature();
     Literature(std::string type, std::string genre);
-    Literature(std::string type, float pageDensity, std::string genre);
+    Literature(std::string type, int pageDensity, std::string genre);
     void setType(std::string type);
     void setGenre(std::string g);
     void setPageDensity(float pd);
@@ -28,9 +28,9 @@ public:
     float getPageDensity();
     std::string getType();
     std::string getGenre();
-    void print();
-    int calculateAge();
-    int calculateAge(int remakeYear);
+    virtual void print();
+    virtual int calculateAge();
+    virtual int calculateAge(int remakeYear);
     ~Literature();
 };
 

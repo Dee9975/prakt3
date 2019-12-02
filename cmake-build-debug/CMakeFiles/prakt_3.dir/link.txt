@@ -1,1 +1,3 @@
-/usr/bin/c++  -g   CMakeFiles/prakt_3.dir/main.cpp.o CMakeFiles/prakt_3.dir/Literature.cpp.o CMakeFiles/prakt_3.dir/Book.cpp.o  -o prakt_3 
+C:\Users\nickg\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.103\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\prakt_3.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\prakt_3.dir/objects.a @CMakeFiles\prakt_3.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\prakt_3.dir/objects.a -Wl,--no-whole-archive  -o prakt_3.exe -Wl,--out-implib,libprakt_3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\prakt_3.dir\linklibs.rsp

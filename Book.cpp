@@ -6,10 +6,10 @@
 #include <ctime>
 #include <iostream>
 
-Book::Book(float price): Literature(type, genre) {
+Book::Book(float price, std::string type, std::string genre): Literature(type, genre) {
     this->price = price;
-    this->type = type;
-    this->genre = genre;
+    //this->type = type;
+    //this->genre = genre;
     setPageDensity(1);
 }
 
@@ -21,7 +21,7 @@ float Book::getPrice() {
     return this->price;
 }
 
-int Literature::calculateAge(int remakeYear) {
+int Book::calculateAge(int remakeYear) {
   int year;
   if (this->releaseYear == 0000) {
     return 0;
@@ -30,9 +30,9 @@ int Literature::calculateAge(int remakeYear) {
   tm *ltm = localtime(&now);
   year = 1900 + ltm->tm_year;
 
-  return (remakeYear - year);
+  return (year - remakeYear);
 }
 
 void Book::print() {
-  std::cout << "Literature info: " << "\nPrice: " << this->price << "\nType: " << this->type << "\nGenre: " << this->genre << std::endl;
+  std::cout << "Literature info: " << "\nPrice: " << this->price << "\nType: " << this->type << "\nGenre: " << this->genre << "\nLiterature Count: " << litCount << std::endl;
 }

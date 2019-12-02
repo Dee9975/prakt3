@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/matiss/CLionProjects/prakt_3/Book.cpp" "/home/matiss/CLionProjects/prakt_3/cmake-build-debug/CMakeFiles/prakt_3.dir/Book.cpp.o"
-  "/home/matiss/CLionProjects/prakt_3/Literature.cpp" "/home/matiss/CLionProjects/prakt_3/cmake-build-debug/CMakeFiles/prakt_3.dir/Literature.cpp.o"
-  "/home/matiss/CLionProjects/prakt_3/main.cpp" "/home/matiss/CLionProjects/prakt_3/cmake-build-debug/CMakeFiles/prakt_3.dir/main.cpp.o"
+  "C:/Users/nickg/Desktop/prakt_3/Book.cpp" "C:/Users/nickg/Desktop/prakt_3/cmake-build-debug/CMakeFiles/prakt_3.dir/Book.cpp.obj"
+  "C:/Users/nickg/Desktop/prakt_3/Journal.cpp" "C:/Users/nickg/Desktop/prakt_3/cmake-build-debug/CMakeFiles/prakt_3.dir/Journal.cpp.obj"
+  "C:/Users/nickg/Desktop/prakt_3/Literature.cpp" "C:/Users/nickg/Desktop/prakt_3/cmake-build-debug/CMakeFiles/prakt_3.dir/Literature.cpp.obj"
+  "C:/Users/nickg/Desktop/prakt_3/main.cpp" "C:/Users/nickg/Desktop/prakt_3/cmake-build-debug/CMakeFiles/prakt_3.dir/main.cpp.obj"
+  "C:/Users/nickg/Desktop/prakt_3/testies.cpp" "C:/Users/nickg/Desktop/prakt_3/cmake-build-debug/CMakeFiles/prakt_3.dir/testies.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

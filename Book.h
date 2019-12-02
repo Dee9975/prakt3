@@ -13,10 +13,12 @@ class Book : public Literature {
 private:
     float price;
 public:
-    Book(float price);
+    explicit Book(float price, std::string type, std::string genre);
     float getPrice();
     void setPrice(float price);
-    void print();
+    void print() override;
+
+    int calculateAge(int remakeYear) override;
 };
 
 

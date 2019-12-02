@@ -14,7 +14,7 @@ Literature::Literature() {
     this->pageDensity = 1; // 1: 100 - 200 lpp 2: 200 - 300 lpp 3:  > 300 lpp
     litCount++;
 }
-Literature::Literature(std::string type, float pageDensity, std::string genre) {
+Literature::Literature(std::string type, int pageDensity, std::string genre) {
     this->type = type;
     this->pageDensity = pageDensity;
     this->genre = genre;
@@ -25,6 +25,7 @@ Literature::Literature(std::string type, std::string genre) {
     this->type = type;
     this->genre = genre;
     this->releaseYear = 0000;
+    litCount++;
 }
 std::string Literature::getGenre() {
     return this->genre;
@@ -40,10 +41,13 @@ void Literature::setPageDensity(float pd) {
 }
 void Literature::print() {
     std::cout << "Type: " << this->type << "\n";
+    std::cout << "Genre: " << this->genre << "\n";
+    std::cout << "Page Density: " << this->pageDensity << "\n";
+    std::cout << "Literature Count: " << this->litCount << "\n";
 }
 
 void Literature::setType(std::string t) {
-    this->type = type;
+    this->type = t;
 }
 
 void Literature::setGenre(std::string g) {
@@ -73,4 +77,8 @@ int Literature::calculateAge() {
 Literature::~Literature() {
     std::cout << "A source of literature has been destroyed" << std::endl;
     litCount--;
+}
+
+int Literature::calculateAge(int remakeYear) {
+  return 0;
 }
